@@ -1,0 +1,476 @@
+Linear Algebra Basics
+PART A — VECTORS
+1. Which of the following represents a vector?
+A. 25
+B. [2, 5, 7]
+C. 2 + 5 + 7
+
+Answer: B 
+
+2. If x = [2, 3] and y = [4, 5], what is x + y?
+A. [6, 8]
+B. [8, 15]
+C. [2, 2]
+D. [4, 3]
+
+Answer: A 
+
+3. If x = [2, 3], what is 4x?
+A. [6, 7]
+B. [8, 12]
+C. [2, 12]
+D. [4, 3]
+
+Answer: B 
+
+4. What does the magnitude of a vector represent?
+A. Its direction
+B. Its length
+C. Its number of elements
+D. Its number of dimensions only
+
+Answer: B 
+
+5. What is the Euclidean norm of the vector [3, 4]?
+A. 3
+B. 4
+C. 5
+D. 7
+
+Answer: 5
+
+6. Two vectors are orthogonal when:
+A. They have the same magnitude
+B. Their dot product is zero
+C. Their values are identical
+D. Their magnitudes are zero
+
+Answer: B 
+
+7. What is the dot product of [1, 2] and [3, 4]?
+A. 5
+B. 7
+C. 10
+D. 11
+
+Answer: D 
+
+8. If two non-zero vectors have a dot product of zero, they are:
+A. Parallel
+B. Orthogonal
+C. Identical
+D. Linearly dependent
+
+Answer : B 
+
+PART B — MATRICES
+
+9. A matrix with 4 rows and 3 columns has dimensions:
+A. 4 × 3
+B. 3 × 4
+C. 12 × 1
+D. 4 × 4
+
+Answer: A 
+
+10. Which of the following is a square matrix?
+A. 2 × 3
+B. 3 × 2
+C. 4 × 4
+D. 5 × 3
+Answer: C 
+
+11. What does transposing a matrix do?
+A. Multiplies all elements by -1
+B. Interchanges rows and columns
+C. Converts all elements to zero
+D. Divides every element by its mean
+
+Answer: B 
+
+12. If matrix A has dimensions 3 × 5, what are the dimensions of A^T?
+A. 3 × 5
+B. 5 × 3
+C. 3 × 3
+D. 5 × 5
+
+Answer: B 
+
+13. Which pair of matrices can be added?
+A. 2 × 3 and 3 × 2
+B. 2 × 3 and 2 × 3
+C. 3 × 4 and 4 × 3
+D. 2 × 2 and 3 × 3
+
+Answer: B 
+
+14. Matrix multiplication AB is possible when:
+A. Rows of A = rows of B
+B. Columns of A = columns of B
+C. Columns of A = rows of B
+D. Both matrices are square
+
+Answer: C 
+
+15. If A is 3 × 4 and B is 4 × 2, what is the dimension of AB?
+A. 3 × 2
+B. 4 × 4
+C. 2 × 3
+D. 3 × 4
+
+Answer: A 
+
+16. If A is 2 × 3 and B is 3 × 4, what is the dimension of AB?
+A. 2 × 4
+B. 3 × 3
+C. 4 × 2
+D. 2 × 3
+
+Answer: A 
+
+17. Which statement about matrix multiplication is generally true?
+A. AB = BA always
+B. AB and BA are always defined
+C. AB is not necessarily equal to BA
+D. Matrix multiplication is only possible for square matrices
+
+Answer: C 
+
+PART C — LINEAR COMBINATIONS
+
+18. A linear combination of vectors involves:
+A. Only multiplication
+B. Only addition
+C. Scaling vectors and adding them together
+D. Multiplying matrices only
+
+Answer: C 
+
+19. Suppose:
+v1 = [1, 0]
+v2 = [0, 1]
+Which vector can be represented as a linear combination of v1 and v2?
+A. [2, 3]
+B. [1, 1]
+C. [5, -2]
+D. All of the above
+
+Answer: D 
+
+20. If:
+v2 = 3v1
+then v1 and v2 are:
+A. Orthogonal
+B. Linearly dependent
+C. Linearly independent
+D. Perpendicular
+
+Answer:  B 
+
+21. A set of vectors is linearly independent if:
+A. Every vector has the same magnitude
+B. No vector can be represented as a combination of the others
+C. All vectors are perpendicular
+D. All vectors contain positive values
+
+Answer: B 
+
+22. If one feature can be exactly calculated from another feature, the two features are:
+A. Orthogonal
+B. Independent
+C. Redundant
+D. Random
+
+Answer: C 
+
+
+PART D — RANK
+
+23. The rank of a matrix represents:
+A. Total number of elements
+B. Number of rows
+C. Number of linearly independent rows or columns
+D. Number of diagonal elements
+
+Answer: C 
+
+24. A matrix whose columns are all multiples of one another will have:
+A. Rank 0
+B. Rank 1
+C. Rank equal to the number of columns
+D. Infinite rank
+
+Answer: B 
+
+25. If a dataset has 10 features but some features are completely redundant, the effective
+number of independent directions may be:
+A. Greater than 10
+B. Exactly 10
+C. Less than 10
+D. Infinite
+
+Answer: C 
+
+PART E — GEOMETRIC INTERPRETATION
+
+26. A vector can be interpreted geometrically as:
+A. A point only
+B. A direction and magnitude
+C. A scalar value only
+D. A matrix
+
+Answer:B 
+
+27. What happens when a vector is multiplied by a scalar greater than 1?
+A. Its direction always changes
+B. Its magnitude increases
+C. It becomes orthogonal
+D. It becomes zero
+
+Answer: B 
+
+28. Multiplying a vector by -1:
+A. Changes its magnitude to zero
+B. Reverses its direction
+C. Makes it orthogonal to every vector
+D. Removes its dimensions
+
+Answer: B 
+
+29. The angle between two vectors can be determined using:
+A. Their dot product and magnitudes
+B. Their number of elements only
+C. Their matrix dimensions
+D. Their rank only
+
+Answer : A 
+
+30. If two vectors point in exactly the same direction, the angle between them is:
+A. 0°
+B. 45°
+C. 90°
+D. 180°
+
+Answer: A 
+
+PART F — PROJECTION
+
+31. The projection of one vector onto another can be understood as:
+A. The component of one vector along the direction of another
+B. The difference between two vectors
+C. The magnitude of both vectors multiplied together
+D. A completely new random vector
+
+Answer: A 
+
+32. If vector a is projected onto vector b, the projection tells us:
+A. How much of a lies in the direction of b
+B. How many elements are in b
+C. The rank of a
+D. The determinant of b
+
+Answer: A 
+
+33. If two vectors are orthogonal, the projection of one onto the other is:
+A. Maximum
+B. Zero
+C. Equal to its magnitude
+D. Always one
+
+Answer: B 
+
+34. Why is projection useful when representing data?
+A. It can represent information using a chosen direction
+B. It always increases dimensionality
+C. It removes all information
+D. It changes categorical data into numerical data
+
+Answer: A 
+
+PART G — EIGENVALUES AND EIGENVECTORS
+
+35. An eigenvector of a matrix is a vector whose:
+A. Direction remains unchanged after the transformation, apart from scaling
+B. Magnitude always becomes zero
+C. Values always become positive
+D. Number of elements changes
+
+Answer:A 
+
+
+36. In the equation:
+A v = λ v
+what is v?
+A. Matrix
+B. Eigenvalue
+C. Eigenvector
+D. Determinant
+
+Answer: C 
+
+37. In the equation:
+A v = λ v
+what is λ?
+A. Eigenvector
+B. Eigenvalue
+C. Matrix rank
+D. Matrix inverse
+
+Answer: B 
+
+38. If an eigenvalue is 5, what does this generally indicate about its associated eigenvector?
+A. The vector is rotated by exactly 5°
+B. The vector is scaled by a factor of 5
+C. The vector becomes zero
+D. The vector becomes orthogonal
+
+Answer: B 
+ 
+39. If an eigenvalue is zero, then:
+A. The associated transformed vector is zero
+B. The eigenvector does not exist
+C. The matrix must be identity
+D. The vector becomes larger
+
+Answer: A 
+
+40. Eigenvectors are useful for identifying:
+A. Important directions associated with a matrix transformation
+B. Missing values in a dataset
+C. Number of observations
+D. Categorical variables
+
+Answer: A 
+
+PART H — COVARIANCE AND VARIANCE
+
+41. Variance measures:
+A. The average value of a variable
+B. How much a variable varies around its mean
+C. The number of observations
+D. The relationship between two different variables
+
+Answer: B 
+
+42. If all values in a variable are exactly the same, its variance is:
+A. 0
+B. 1
+C. -1
+D. Infinite
+
+Answer: A 
+
+43. Covariance measures:
+A. How two variables vary together
+B. The mean of one variable
+C. The number of features
+D. The magnitude of a vector
+
+Answer: A 
+
+44. A positive covariance generally indicates:
+A. Both variables tend to increase together
+B. One variable always decreases
+C. There is no relationship
+D. Both variables are constant
+
+Answer: A 
+
+5. A negative covariance generally indicates:
+A. Both variables increase together
+B. One variable tends to increase when the other decreases
+C. Both variables are identical
+D. Both variables have zero variance
+
+Answer: B 
+
+46. If two variables have covariance close to zero, it indicates:
+A. They definitely have no relationship of any kind
+B. There is little or no linear relationship detected
+C. They must be identical
+D. They must be orthogonal vectors
+
+Answer: B 
+
+PART I — APPLIED LINEAR ALGEBRA
+
+47. Consider a dataset represented as a matrix where rows represent observations and columns
+represent features. What does each row represent?
+A. A feature
+B. An observation/sample
+C. A matrix transformation
+D. An eigenvector
+
+Answer: B 
+
+48. In a dataset matrix, each column generally represents:
+A. An observation
+B. A feature/variable
+C. An eigenvalue
+D. A class boundary
+
+Answer : B 
+
+49. Suppose two features contain almost exactly the same information. What is the most likely
+consequence?
+A. Increased redundancy
+B. Increased independence
+C. Guaranteed increase in useful information
+D. Orthogonality
+
+Answer: A 
+
+50. A dataset contains 100 features, but many of them are strongly correlated. What might this
+suggest mathematically?
+A. The data may have fewer effective independent directions than 100
+B. The data must have exactly 100 independent directions
+C. The data cannot be represented as a matrix
+D. All features are orthogonal
+
+Answer: A 
+
+PART J — THINK BEFORE YOU ANSWER
+
+51. A transformation changes a vector from [2, 1] to [6, 3]. What can you immediately conclude?
+A. The direction has changed
+B. The vector has been scaled by 3
+C. The vector has become orthogonal
+D. The vector has been translated
+
+Answer : B 
+
+52. Suppose three vectors lie along the same line. Their maximum number of linearly
+independent directions is:
+A. 0
+B. 1
+C. 2
+D. 3
+
+Answer: B 
+
+53. If a matrix has highly dependent columns, its rank will generally be:
+A. Higher
+B. Lower
+C. Infinite
+D. Unaffected in all cases
+
+Answer: B 
+
+54. A vector has a large magnitude but points in the same direction as another vector. What can
+be said about the two vectors?
+A. They must be orthogonal
+B. They may be scalar multiples of each other
+C. They must be independent
+D. They must have zero dot product
+
+Answer : B 
+
+
+55. Which mathematical concept is most directly related to finding important directions in a
+linear transformation?
+A. Eigenvectors
+B. Mean
+C. Median
+D. Mode
+
+Answer: A 
